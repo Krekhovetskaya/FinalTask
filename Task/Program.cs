@@ -1,4 +1,8 @@
-﻿string[] array1 = new string[6] {"025", "307", "gb", "final", "5", "ok"};
+﻿using System;
+using static System.Console;
+Clear();
+
+string[] array1 = new string[6] {"025", "307", "gbrt", "final", "5", "ok"};
 string[] array2 = new string[array1.Length];
 
 GetNewArray(array1, array2);
@@ -20,8 +24,8 @@ void PrintArray(string[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        Console.Write($"{array[i]} ");
+        Write($"{array[i]} ");
     }
-    Console.WriteLine();
+   WriteLine();
 }
 
