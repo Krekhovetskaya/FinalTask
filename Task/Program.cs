@@ -6,6 +6,7 @@ string[] array1 = new string[6] {"025", "307", "gbrt", "final", "5", "ok"};
 string[] array2 = new string[array1.Length];
 
 GetNewArray(array1, array2);
+WriteLine ("Новый массив: ");
 PrintArray(array2);
 
 void GetNewArray(string[] array1, string[] array2)
